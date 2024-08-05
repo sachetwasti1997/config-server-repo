@@ -25,9 +25,9 @@ retry-config:
   sleep-time-ms: 2000
 
 kafka-config:
-  bootstrap-servers: kafka:30092
+  bootstrap-servers: 'kafka-2.kafka.default.svc.cluster.local:29092,kafka-1.kafka.default.svc.cluster.local:29092,kafka-0.kafka.default.svc.cluster.local:29092'
   schema-registry-url-key: schema.registry.url
-  schema-registry-url: http://10.1.1.51:8081
+  schema-registry-url: http://10.1.1.129:8081
   # schema-registry-url: http://10.1.0.248:8081
   topic-name: twitter-topic
   topic-names-to-create:
