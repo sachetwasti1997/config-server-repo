@@ -12,7 +12,7 @@ twitter-to-kafka-service:
   enable-mock-tweets: true
   mock-min-tweet-length: 5
   mock-max-tweet-length: 15
-  mock-sleep-ms: 60000
+  mock-sleep-ms: 120000
   twitter-v2-base-url: random
   twitter-v2-rules-base-url: random
   twitter-v2-bearer-token: random
